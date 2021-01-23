@@ -1,3 +1,4 @@
+</p>
 <script>
 function expandir(){
     var pontos = document.getElementById("pontos");
