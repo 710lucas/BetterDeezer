@@ -23,3 +23,20 @@ window.onload = function(){
 setTimeout(teste,2000);
 
 }
+
+function expandir(){
+    var pontos = document.getElementById("pontos");
+    var maisTexto = document.getElementById("mais");
+    var btn = document.getElementById("exp_btn");
+
+    if(pontos.style.display === "none"){
+        pontos.style.display = "inline";
+        btn.innerHTML = "Ler Mais";
+        maisTexto.style.display = "none";
+    }
+    else{
+            pontos.style.display = "none";
+            btn.innerHTML = "Ler menos";
+            maisTexto.style.display = "inline";
+    }
+}
