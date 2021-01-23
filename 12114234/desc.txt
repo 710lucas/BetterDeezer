@@ -9,7 +9,7 @@ A arte da capa foi criada pela Hipgnosis, contendo o lado frontal (visivel no de
 <button onclick="expandir()" id="exp_btn"> Ler mais</button>
 
 <style>
-    #more {display: none;}
+    #mais {display: none;}
 </style>
 
 <script>
