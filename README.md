@@ -1,3 +1,5 @@
+OBS.: caso a descrição não apareça, atualize a pagina
+
 # Objetivos dessa extensão
 
 Essa extensão tenta trazer ao deezer a possibilidade de adicionar informações sobre qualquer album, inclusive imagens da produção do album e coisas do tipo
