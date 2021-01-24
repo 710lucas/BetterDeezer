@@ -1,23 +1,3 @@
-</p>
-<script>
-function expandir(){
-    var pontos = document.getElementById("pontos");
-    var maisTexto = document.getElementById("mais");
-    var btn = document.getElementById("exp_btn");
-
-    if(pontos.style.display === "none"){
-        pontos.style.display = "inline";
-        btn.innerHTML = "Ler Mais";
-        maisTexto.style.display = "none";
-    }
-    else{
-            pontos.style.display = "none";
-            btn.innerHTML = "Ler menos";
-            maisTexto.style.display = "inline";
-    }
-}
-</script>
-
 <p> Atom Heart Mother é um<span id="pontos">...</span><span id="mais"> album da banda pink floyd.
 <br>
 Foi gravado nos estúdios Abbey Road, em londres, sendo lançado pela Harvest e pela EMI records no dia 2/10/1970
@@ -26,8 +6,3 @@ A arte da capa foi criada pela Hipgnosis, contendo o lado frontal (visivel no de
 </span>
 </p>
 
-<button onclick="expandir()" id="exp_btn"> Ler mais</button>
-
-<style>
-    #mais {display: none;}
-</style>
