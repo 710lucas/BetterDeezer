@@ -1,4 +1,6 @@
 OBS.: caso a descrição não apareça, atualize a pagina
+OBS.: Ainda está muito em WIP então poucos albuns foram adicionados
+
 
 # Objetivos dessa extensão
 
