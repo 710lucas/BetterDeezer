@@ -25,7 +25,7 @@ A arte da capa foi criada pela Hipgnosis, contendo o lado frontal (visivel no de
 </span>
 </p>
 
-<button id="exp_btn"> Ler mais</button>	<button id="exp_btn"> Ler mais</button>
+<button id="exp_btn"> Ler mais</button>
 <style>	
     #mais {display: none;}
 </style>
