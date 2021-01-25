@@ -16,14 +16,19 @@ function teste(){
 	});
 
 }
+teste();
+
 window.onload = function(){
 //alert("DEEZER");
 //alert(url);
 
 setTimeout(teste,2000);
-
+setTimeout(declarar,200);
 }
 
+function declarar(){
+	var script = document.createElement('script');
+	script.innerHTML = `
 function expandir(){
     var pontos = document.getElementById("pontos");
     var maisTexto = document.getElementById("mais");
@@ -40,3 +45,7 @@ function expandir(){
             maisTexto.style.display = "inline";
     }
 }
+	`
+	document.head.appendChild(script);
+}
+

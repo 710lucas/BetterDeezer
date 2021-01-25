@@ -1,21 +1,3 @@
-<script>
-function expandir(){
-    var pontos = document.getElementById("pontos");
-    var maisTexto = document.getElementById("mais");
-    var btn = document.getElementById("exp_btn");
-
-    if(pontos.style.display === "none"){
-        pontos.style.display = "inline";
-        btn.innerHTML = "Ler Mais";
-        maisTexto.style.display = "none";
-    }
-    else{
-            pontos.style.display = "none";
-            btn.innerHTML = "Ler menos";
-            maisTexto.style.display = "inline";
-    }
-}
-</script>
 
 <p> Atom Heart Mother é um<span id="pontos">...</span><span id="mais"> album da banda pink floyd.
 <br>
@@ -25,7 +7,7 @@ A arte da capa foi criada pela Hipgnosis, contendo o lado frontal (visivel no de
 </span>
 </p>
 
-<button id="exp_btn"> Ler mais</button>
+<button onclick="expandir()" id="exp_btn"> Ler mais</button>
 <style>	
     #mais {display: none;}
 </style>
