@@ -1,0 +1,14 @@
+<p> Mesclado é um<span id="pontos">...</span><span id="mais"> album de Ednaldo Pereira.
+<br>
+Esse album possui inumeras musicas marcantes como "What is the broder?"
+<br>
+Na capa podemos ver uma fotografia do cantor e compositor Ednaldo Pereira e o nome do album.
+<br>
+Esse album foi feito em 2010, ou seja, no inicio do sucesso da obra de Ednaldo Pereira, que, até hoje, continua brilhando como um diamante em uma geração marcante.
+</span>
+</p>
+
+<button onclick="expandir()" id="exp_btn"> Ler mais</button>
+<style>	
+    #mais {display: none;}
+</style>
