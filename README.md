@@ -18,8 +18,22 @@ Para usar essa extensão, voce pode clicar em Code e Download ZIP e extrair o zi
 
 # Como adicionar informações sobre albuns
 
-Para adicionar informação sobre algum album, é muito simples, basta criar uma pasta com o id do album e criar um arquivo dentro dela chamado "desc.txt" e colocar todas as informações dentro dele
+veja [esse video](https://www.youtube.com/watch?v=vU4YqhoVcP8) caso você tenha alguma duvida.
 
-Para ver o ID do album é simples, visite a pagina do album que voce desejar (https://www.deezer.com/br/album/12114240 por exemplo) e pegue os ultimos numeros no final da url (depois de /album/ no meu caso é 12114240)
+1. Visite a página do album que você deseja adicionar como, por exemplo, [The Dark Side Of The Moon.](https://www.deezer.com/br/album/12114240)
 
-E Para finalizar, Adicione o ID do album e o nome do Album ao arquivo "IDS" na pasta raiz do projeto, fica mais facil de editar no futuro
+2. Pegue o Id do album na url: 
+
+    O Id do album são os ultimos numeros que a url possui, no caso de The Dark Side of The Moon https://www.deezer.com/br/album/12114240 temos 12114240 no final, esse numero será nosso Id.
+
+3. Escreva informações sobre o album: Você pode escrever qualquer coisa sobre o album, porem tente evitar por muita opinião pessoal na descrição do album, pois você não será a única pessoa vendo aquilo e pessoas podem ter gostos diferentes.
+
+4. Adicione as informações sobre o album no github:
+
+   1. Para continuar, você precisará criar uma conta no site, é rapido e simples de fazer.
+   
+   2. Após ter criado uma conta, clique na pasta albuns e clique em "Add File" -> "New File"
+
+   3. nomeie o arquivo do id do seu album e adicione um / ao final, usando o exemplo de The Dark Side Of The Moon, ficaria 12114240/
+
+   4. Você verá que ele criou uma pasta, nesse ponto, coloque o nome do arquivo de desc.txt e coloque todas as informações do album dentro do conteudo desse arquivo
