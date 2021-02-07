@@ -4,7 +4,7 @@ OBS.: Ainda está muito em WIP então poucos albuns foram adicionados
 
 # Objetivos dessa extensão
 
-Essa extensão tenta trazer ao deezer a possibilidade de adicionar informações sobre qualquer album, inclusive imagens da produção do album e coisas do tipo
+Essa extensão tenta trazer ao deezer a possibilidade de adicionar informações sobre qualquer album e artista, inclusive imagens da produção do album e coisas do tipo
 
 Ela foi feita e testada no chromium, entao qualquer navegador baseado em chromium deve ser capaz de usa-la.
 
@@ -16,7 +16,9 @@ Para usar essa extensão, voce pode clicar em Code e Download ZIP e extrair o zi
 
 --------------------
 
-# Como adicionar informações sobre albuns
+# Como adicionar informações sobre albuns ou artistas
+
+O tutorial de albuns tambem serve para adicionar artistas, basta usar a pasta artistas no lugar de albuns
 
 veja [esse video](https://www.youtube.com/watch?v=vU4YqhoVcP8) caso você tenha alguma duvida.
 
