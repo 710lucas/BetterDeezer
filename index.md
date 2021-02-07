@@ -56,7 +56,7 @@ veja [esse video](https://www.youtube.com/watch?v=vU4YqhoVcP8) caso você tenh
 
 2. Pegue o Id do album na url:
    
-   O Id do album são os ultimos numeros que a url possui, no caso de []The Dark Side of The Moon](https://www.deezer.com/br/album/12114240) temos 12114240 no final, esse numero será nosso Id.
+   O Id do album são os ultimos numeros que a url possui, no caso de [The Dark Side of The Moon](https://www.deezer.com/br/album/12114240) temos 12114240 no final, esse numero será nosso Id.
 
 3. Escreva informações sobre o album: Você pode escrever qualquer coisa sobre o album, porem tente evitar por muita opinião pessoal na descrição do album, pois você não será a única pessoa vendo aquilo e pessoas podem ter gostos diferentes.
 
