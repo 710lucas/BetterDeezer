@@ -1,0 +1,12 @@
+<p>Esse album é a trilha sonora do episdodio "Obsidian" <span id="pontos">...</span>
+<span id="mais">
+do desenho animado Adventure Time: Distant Lands, lançado pela HBO. A trilha sonora segue a ordem em que as musicas aparecem no episodio e possui algumas músicas "Bonus", como pode ser visto depois de "Eternity With You", onde as musicas possuem (Demo). Tambem é possivel observar nesse album, que muitos artistas não participaram anteriormente em outras trilhas sonoras de Adventure Time, como a Amanda Jones por exemplo.
+
+O nome das pessoas que participaram pode ser visto ao lado do nome da musica.
+</span>
+</p>
+
+<button onclick="expandir()" id="exp_btn"> Ler mais</button>
+<style>	
+    #mais {display: none;}
+</style>
