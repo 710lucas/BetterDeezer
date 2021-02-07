@@ -1,13 +1,17 @@
+//Função que executa a parte mais importante do codigo
+function BetterDeezer(){
 
-
-function teste(){
-
+  //usado para pegar apenas o id do album
 	var id = window.location.href.replace('https://www.deezer.com/br/album/','');
+
+	//pega a classe que está abaixo do titulo do album
 	var dir = window.document.getElementsByClassName("_2kEwD ellipsis");
 
+  //Procura no repositorio do github um desc.txt na pasta com o id do album
 	var url = 'https://raw.githubusercontent.com/LucasPB710/BetterDeezer/master/albuns/'+id+'/desc.txt';
 	var text = "a";
 
+  //Coloca o texto no site
 	fetch(url).then(function(response){
 		response.text().then(function(_text){
 			text = _text;
@@ -16,16 +20,14 @@ function teste(){
 	});
 
 }
-teste();
 
+//Quando a pagina tiver carregado, inicia as funções
 window.onload = function(){
-//alert("DEEZER");
-//alert(url);
-
-setTimeout(teste,2000);
-setTimeout(declarar,200);
+  setTimeout(BetterDeezer,2000);
+  setTimeout(declarar,200);
 }
 
+//Coloca a função expandir dentro de um <script> no site
 function declarar(){
 	var script = document.createElement('script');
 	script.innerHTML = `
@@ -48,4 +50,3 @@ function expandir(){
 	`
 	document.head.appendChild(script);
 }
-
