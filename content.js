@@ -49,9 +49,6 @@ window.onload = function(){
     setTimeout(Album,2000);
   else if(window.location.href.includes("artist"))
     setTimeout(Artist,2000);
-  else {
-    setTimeout(alert(1),2000);
-  }
   setTimeout(declarar,200);
 }
 
