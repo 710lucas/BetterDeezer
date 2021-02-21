@@ -1,0 +1,15 @@
+<p>
+Animals foi o decimo album da banda Pink Floyd <span id="pontos">...</span>
+<span id="mais">
+, sendo lançado em Janeiro de 1977. Animals é um album que se assemelha muito ao Dark side of the moon e Wish You Were Here, apresentando mudanças no estilo musical da banda e criticando algumas situações politicas.
+<br>
+O album contou, novamente, com a participação da Hipgnosis para realizar a capa, tendo também a participação do membro da banda Roger Waters, ela consiste em um porco voando entre as chaminés de uma usina termeletrica de londres, a usina de Battersea.
+<br>
+Em geral, Animals foi um album muito bem recebido pelo público, recebendo notas altas pela critica.
+</span>
+</p>
+
+<button onclick="expandir()" id="exp_btn"> Ler mais</button>
+<style>	
+    #mais {display: none;}
+</style>
