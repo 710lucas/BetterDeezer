@@ -1,0 +1,31 @@
+<p>
+
+Wish You Were Here foi o nono album da banda Pink Floyd, sendo lançado em setembro de 1975. <span id="pontos">...</span>
+
+<span id="mais">
+<br>
+O album trata multiplos temas, todos tratando de Syd Barret, ex-integrante da banda e um dos fundadores, assim o album fala sobre como a industria musical se relaciona com a decaida da saude mental de Syd.
+<br>
+O album inicia com a primeira parte da musica "Shine on you crazy diamond", que é claramente uma homenagem ao Syd.
+<br>
+Novamente, Storm Thorgerson, fundador da Hipgnosis, participou do processo de criação da arte do álbum, que ja havia trabalhado anteriormente com Pink Floyd.
+<br>
+Wish You Were Here foi muito bem recebido pelo público, recebendo muitas notas altas e um alto numero de vendas. Alem disso, foi colocado em muitas listas como um dos melhores albns de todos os tempo, ou melhor album de rock classico:
+<br>
+1998 - 34º lugar na lista do maior álbum de todos os tempos (Revista Q)
+<br>
+2000 - 43º lugar na lista de maior álbum britanico (Revista Q)
+<br>
+2003 - 209º lugar na lista de 500 melhores albuns (Revista Rolling Stone)
+<br>
+2004 - 38º lugar na lista de 100 melhores albuns dos anos 70 (pitchfork media), 8º lugar na lista de melhor album de rock clássico.
+<br>
+2007 - 1º Lugar na lista de melhor álbum (Votação feita pela rádio WDR 2)
+<br>
+</span>
+</p>
+
+<button onclick="expandir()" id="exp_btn"> Ler mais</button>
+<style>	
+    #mais {display: none;}
+</style>
